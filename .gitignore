@@ -1,0 +1,42 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!/src/main//target/
+!/src/test//target/
+
+### IntelliJ IDEA ###
+.idea
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/dataSources.xml
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+
+### allure ###
+.allure
+
+### Logs and temporary files ###
+*.log
+*.tmp
+
+### Swap files for text editors ###
+*.swp
+*.swo
+/keystore.pfx
+/truststore.pfx
+/tls.key
+/tls.crt
+/client.p12
+/rest-client.pfx
